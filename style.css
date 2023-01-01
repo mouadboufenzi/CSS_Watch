@@ -1,0 +1,246 @@
+*{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 90%;
+    height: 20vh;
+    display: block;
+    
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 30px;
+}
+header h3{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: 300;
+    color: rgb(61, 61, 61);
+}
+.l1{
+    width: 100%;
+    height: 8%;
+}
+.l1 ul{
+    display: flex;
+    border-top: 1px solid rgb(122, 122, 122);
+    border-bottom: 1px solid rgb(122, 122, 122);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.l1 ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 8px 4px;
+    color: rgb(90, 90, 90);
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+}
+.l1 ul li:hover{
+    color: rgb(175, 149, 3);
+}
+.l1 ul li i{
+    text-align: right;
+    color: rgb(175, 149, 3);
+    font-size: 19px;
+}
+.headpic{
+    margin-top: 4%;
+    height: 50vh;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Pics/watch0.png);
+    background-size: cover;
+    animation-name: A;
+    animation-duration: 20s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes A {
+    0% {
+        background-image: url(Pics/watch0.png);
+    }
+    16.6666666667% {
+        background-image: url(Pics/watch1.png);
+    }
+    33.3333333333% {
+        background-image: url(Pics/watch2.png);
+    }
+    50% {
+        background-image: url(Pics/watch3.png);
+    }
+    66.6666666667% {
+        background-image: url(Pics/watch0.png);
+    }
+    83.3333333333% {
+        background-image: url(Pics/watch1.png);
+    }
+    100% {
+        background-image: url(Pics/watch3.png);
+    }
+}
+.txt1{
+    width: 350px;
+    height: 150px;
+    float: left;
+    margin-top: 27px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.383);
+}
+.txt1 h2{
+    font-family: 'Playfair Display', serif ;
+    font-weight: 300;
+    font-size: 27px;
+    margin-top: 15px;
+    color: rgb(61, 61, 61);
+}
+.txt1 p{
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+    font-family: 'Playfair Display', serif;
+    margin-top: 13px;
+}
+.container{
+    width: 90%;
+    display: flex; 
+    height: 37vh;
+    margin-top: 3%;
+}
+.box{
+    width: 100%;
+    height: 85%;
+}
+.mam {
+    filter: grayscale(0%);
+    z-index: -1;
+}
+
+.mam:hover {
+    filter: grayscale(100%);
+    z-index: -1;
+}
+.box img{
+    width: 100%;
+    height: 95%;
+}
+.yy{
+    display: flex;
+}
+.two{
+    width: 25%;
+    height: 100%;
+    margin: 10px 8px ;
+    display: block;
+}
+.txt2{
+    float: left;
+}
+.txt2 p{
+    text-align: left;
+    color: rgb(61, 61, 61);
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+.tt{
+    font-size: 18px;
+    background-color: rgb(209, 178, 2);
+    width: 70px;
+    position: relative;
+    bottom: 95%;
+    right: 25%;
+    padding: 8px 8px;
+    color: white;
+}
+.about{
+    width: 90%;
+    height: 60vh;
+    margin-top: 7%;
+    display: flex;
+}
+.first{
+    width: 20%;
+    height: 100%;
+    display: block;
+    margin-top: 4%;
+}
+.first h2{
+    color: rgb(90, 90, 90);
+    font-weight: 300;
+    font-size: 17px;
+
+}
+.first hr{
+    background-color: rgb(207, 206, 206);
+    border: none;
+    height: 0.5px;
+}
+.first1{
+    width: 40%;
+    height: 100%;
+    margin-top: 4%;
+}
+.first1 p{
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+}
+.first2{
+    width: 35%;
+    height: auto;
+    margin-bottom: 30%;
+}
+.first2 img{
+    height: 100%;
+    width: 100%;
+}
+footer{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+.fin{
+    background-color: rgb(207, 206, 206);
+    border: none;
+    height: 0.5px;
+    width: 100%;
+}
+.txt3{
+    width: 20%;
+    padding: auto 15px;
+    cursor: pointer;
+}
+.txt3 p{
+    font-size: 11px;
+    color: rgb(90, 90, 90);
+
+}
+/*boutique page*/
+.all{
+    width: 90%;
+    height: 105vh;
+    display: flex;
+    margin-top: 1%;
+}
+.all1{
+    display: block;
+    width: 80%;
+    height: 100%;
+}
+.all11{
+    display: flex;
+    width: 100%;
+    height: 33%;
+}
+.twoo{
+    width: 45%;
+    height: 100%;
+    margin: 10px 8px ;
+    display: block;
+}
